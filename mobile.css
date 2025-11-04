@@ -1,0 +1,337 @@
+@media (max-width: 1200px) {
+
+    .nav-list ul,
+    .wishlist {
+        display: none;
+    }
+
+    #bars {
+        display: block;
+    }
+
+    .main-section {
+        padding: 60px 30px;
+    }
+
+    .artical {
+        flex-direction: column;
+        padding: 20px 20px;
+        gap: 50px;
+    }
+
+    .artical div img {
+        margin-left: 20px;
+        width: 80vw;
+        height: 50vh;
+    }
+
+    .artical div h1 {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .artical .contant p {
+        font-size: 15px;
+    }
+
+    .artical div:first-child {
+        order: 2;
+    }
+
+    .artical .contant {
+        order: 1;
+    }
+
+    .info-container {
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .info-box {
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    .info-box i {
+        font-size: 25px;
+    }
+    .information-card {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .info-card {
+    width: 100%;
+    margin-left: 0;
+    flex-direction: row;
+    
+  }
+
+  .info-card img {
+    width: 30%;
+    
+  }
+
+  .card-detail {
+    text-align: center;
+    gap: 10px;
+  }
+
+  .card-detail h2 {
+    font-size: 25px;
+  }
+
+  .date-info h3 {
+    font-size: 12px;
+  }
+   .footer-main{
+    padding: 10px 10px;
+    height: 60vh;
+  }
+  .foot-logo p{
+    width: 100%;
+    line-height: 1.5;
+  }
+}
+@media (min-width:701px )and (max-width: 900px){
+  /* footer */
+  .footer-main{
+    font-size: 15px;
+    padding: 50px 20px;
+    height: 50vh;
+    gap: 30px;
+  }
+  .artical-1{
+    width: 50%;
+  }
+  .foot-logo{
+    gap: 10px;
+    line-height: 1;
+  }
+  .artical-3 div{
+    align-items: start;
+  }
+  .foot-2{
+    padding-inline:40px;
+    flex-direction: column;
+  }
+}
+
+@media (min-width:500px )and (max-width: 700px){
+.card-detail h2 {
+    font-size: 15px;
+  }
+  .main-hed h1 {
+    font-size: 18px;
+    padding: 10px;
+  }
+.main-info {
+   padding: 0;
+  }
+
+   .art{
+    margin-bottom: 20px;
+  }
+  .art h3{
+    font-size: 18px;
+  }
+  .art h1{
+    font-size: 22px;
+  }
+
+  .date-info {
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    font-size: 12px;
+  }
+
+  /* footer */
+  .footer-main{
+    flex-direction: column;
+    font-size: 12px;
+    padding: 50px 20px;
+    height: 100vh;
+    gap: 30px;
+  }
+  .artical-1{
+    width: 100%;
+  }
+  .foot-logo{
+    gap: 10px;
+    line-height: 1;
+  }
+  .artical-3 div{
+    align-items: start;
+  }
+  .foot-2{
+    padding-inline:40px;
+    flex-direction: column;
+  }
+  
+  
+}
+
+@media (max-width: 500px) {
+    .nav-list {
+        padding: 5px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+        left: 1px;
+        bottom: 200px;
+    }
+
+    .hero h4 {
+        font-size: 18px;
+    }
+
+    .main-section {
+        padding: 40px 20px;
+    }
+
+    .menubare {
+        .wishlist {
+            display: flex;
+            gap: 50px;
+        }
+        
+    }
+
+    .artical {
+        flex-direction: column;
+        padding: 20px 20px;
+        gap: 50px;
+    }
+
+    .artical div img {
+        margin-left: 20px;
+        width: 80vw;
+        height: 50vh;
+    }
+
+    .artical div h1 {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .artical .contant p {
+        font-size: 15px;
+    }
+
+    .artical div:first-child {
+        order: 2;
+    }
+
+    .artical .contant {
+        order: 1;
+    }
+
+    .info-container {
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .info-box {
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    .info-box i {
+        font-size: 25px;
+    }
+
+  .useful-information {
+    padding: 40px 20px;
+  }
+
+  .main-info {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .main-hed h3 {
+    font-size: 14px;
+    color: #3fa369c0;
+    margin-bottom: 5px;
+  }
+
+  .main-hed h1 {
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  /* Cards layout */
+  .information-card {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .info-card {
+    width: 100%;
+    margin-left: 0;
+    flex-direction: row;
+    
+  }
+
+  .info-card img {
+    width: 30%;
+    
+  }
+
+  .card-detail {
+    text-align: center;
+    gap: 10px;
+  }
+
+  .card-detail h2 {
+    font-size: 14px;
+  }
+
+  .date-info {
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    font-size: 12px;
+  }
+
+  .date-info h3 {
+    font-size: 12px;
+  }
+  .art{
+    margin-bottom: 20px;
+  }
+  .art h3{
+    font-size: 18px;
+  }
+  .art h1{
+    font-size: 22px;
+  }
+
+  /* footer */
+  .footer-main{
+    flex-direction: column;
+    font-size: 12px;
+    padding: 50px 20px;
+    height: 100vh;
+    gap: 30px;
+  }
+  .artical-1{
+    width: 100%;
+  }
+  .foot-logo{
+    gap: 10px;
+    line-height: 1;
+  }
+  .artical-3 div{
+    align-items: start;
+  }
+  .foot-2{
+    padding-inline:40px;
+    flex-direction: column;
+  }
+}
+

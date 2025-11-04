@@ -87,11 +87,14 @@
   }
    .footer-main{
     padding: 10px 10px;
-    height: 60vh;
+    height: 20vh;
   }
   .foot-logo p{
     width: 100%;
     line-height: 1.5;
+  }
+  .foot-2{
+    height: 5vh;
   }
 }
 @media (min-width:701px )and (max-width: 900px){
